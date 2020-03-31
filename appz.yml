@@ -9,7 +9,7 @@ build:
   build_file: pom.xml
   output_files: output/*.war
   image_template: tomcat8-v2
-  image_name: myco/tomcat-loadgen
+  image_name: alpha/tomcat-helloworld
 
 deploy:
   context: myco/DEV
@@ -22,7 +22,7 @@ monitor:
   notify: appzops@cloudbourne.co
 
 properties:
-  title: Tomcat Loadgen WebEx
+  title: Tomcat HelloWorld
   head_color : Green
   threads: 8
   delay: 15
@@ -30,5 +30,5 @@ properties:
   download: true
   random : true
   nano : 61
-
+Tomcat Loadgen WebEx
   

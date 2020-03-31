@@ -24,11 +24,10 @@ monitor:
 properties:
   title: Tomcat HelloWorld
   head_color : Green
-  threads: 8
+  threads: 1
   delay: 15
   next: 10
-  download: true
+  download: false
   random : true
   nano : 61
-Tomcat Loadgen WebEx
   

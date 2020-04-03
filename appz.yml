@@ -12,7 +12,7 @@ build:
   image_name: alpha/tomcat-helloworld
 
 deploy:
-  context: myco/DEV
+  context: alpha/DEV
   replicas: 4
   port: 8080
   strategy : rolling

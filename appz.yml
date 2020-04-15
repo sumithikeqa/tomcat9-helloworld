@@ -23,11 +23,11 @@ monitor:
 
 properties:
   title: Tomcat HelloWorld
-  head_color : Red
+  head_color : Green
   threads: 1
   delay: 15
   next: 10
   download: false
   random : true
-  nano : 61
+  nano : 60
   

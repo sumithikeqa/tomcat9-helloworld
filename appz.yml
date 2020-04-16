@@ -30,4 +30,5 @@ properties:
   download: false
   random : true
   nano : 60
-  
+  secret: 
+    VAULT:MY_PASSWORD

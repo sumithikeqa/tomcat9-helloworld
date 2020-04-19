@@ -30,5 +30,6 @@ properties:
   download: false
   random : true
   nano : 61
+  MOD_CLUSTER : 123.123.1.1:8080
   MY_PASSWORD: 
     vault: MY_PASSWORD

@@ -30,9 +30,6 @@ properties:
   download: false
   random : true
   nano : 60
-  SONARQUBE: enabled
-  SONAR_USER_TOKEN: 6fafdfab86bf24d5c7c8c8ec0d14f061778200c8
-  SONAR_HOST_URL: sonarqube-8-2:9000
   MOD_CLUSTER : 123.123.1.1:8080
   MY_PASSWORD: 
     vault: MY_PASSWORD

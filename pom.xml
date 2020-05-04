@@ -4,18 +4,13 @@
 	<groupId>com.tomcat-loadgen</groupId>
 	<artifactId>tomcat-loadgen</artifactId>
 	<packaging>war</packaging>
-	<version>${project.version}</version>
+	<version>8.2</version>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.sonarsource.scanner.maven</groupId>
-			<artifactId>sonar-maven-plugin</artifactId>
-			<version>8.2</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>

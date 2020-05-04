@@ -33,6 +33,6 @@ properties:
   MOD_CLUSTER : 123.123.1.1:8080
   SONARQUBE: enabled
   SONAR_USER_TOKEN: 47afb7c0f42330568884bcdb9c26e0ae61318278
-  SONAR_HOST_URL: https://quincy2019-staging.ecloudcontrol.com/sonarqube/
+  SONAR_HOST_URL: http://134.209.148.190:31302
   MY_PASSWORD: 
     vault: MY_PASSWORD

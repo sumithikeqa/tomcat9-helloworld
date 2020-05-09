@@ -9,10 +9,10 @@ build:
   build_file: pom.xml
   output_files: output/*.war
   image_template: tomcat8-v2
-  image_name: alpha-dev/tomcat-helloworld
+  image_name: alpha/tomcat-helloworld
 
 deploy:
-  context: EA-SharedServices/DEV
+  context: alpha/DEV
   replicas: 1
   port: 8080
   strategy : rolling

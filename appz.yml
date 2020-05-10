@@ -24,12 +24,12 @@ monitor:
 properties:
   MOD_CLUSTER: modcluster-1-3:6666
   title: Tomcat HelloWorld
-  head_color : Green
+  head_color : Blue
   threads: 1
   delay: 60
   next: 10
   download: false
   random : true
-  nano : 64
+  nano : 65
   MY_PASSWORD: 
     vault: MY_PASSWORD

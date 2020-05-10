@@ -23,13 +23,13 @@ monitor:
 
 properties:
   title: Tomcat HelloWorld
-  head_color : Green
+  head_color : Red
   threads: 1
   delay: 60
   next: 10
   download: false
   random : true
-  nano : 63
+  nano : 64
   MOD_CLUSTER : 123.123.1.1:8080
   MY_PASSWORD: 
     vault: MY_PASSWORD

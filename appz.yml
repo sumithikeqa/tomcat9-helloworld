@@ -26,8 +26,8 @@ properties:
   title: Tomcat HelloWorld
   head_color : Green
   threads: 5
-  delay: 50
-  next: 10
+  delay: 15
+  next: 15
   download: true
   random : true
   nano : 70

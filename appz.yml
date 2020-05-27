@@ -12,7 +12,7 @@ build:
   image_name: ea-shareservices/tomcat-helloworld
 
 deploy:
-  context: EA-SharedServices/DEV
+  context: alpha/DEV
   replicas: 8
   port: 8080
   strategy : rolling

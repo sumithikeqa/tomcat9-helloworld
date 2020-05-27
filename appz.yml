@@ -9,7 +9,7 @@ build:
   build_file: pom.xml
   output_files: output/*.war
   image_template: tomcat8-v2
-  image_name: ea-shareservices/tomcat-helloworld
+  image_name: alpha/tomcat-helloworld
 
 deploy:
   context: alpha/DEV

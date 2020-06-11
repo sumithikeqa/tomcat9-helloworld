@@ -14,7 +14,7 @@ build:
 deploy:
   context: alpha/DEV
   replicas: 2
-  port: 8090
+  port: 8080
   strategy : rolling
   ready_seconds : 30
   

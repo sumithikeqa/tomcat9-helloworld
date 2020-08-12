@@ -8,12 +8,12 @@ build:
   env: DEV
   build_file: pom.xml
   output_files: output/*.war
-  image_template: tomcat8-v2
-  image_name: alpha/tomcat-helloworld
+  image_template: tomcat9
+  image_name: alpha/tomcat9-helloworld
 
 deploy:
   context: alpha/DEV
-  replicas: 8
+  replicas: 2
   port: 8080
   strategy : rolling
   ready_seconds : 30

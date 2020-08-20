@@ -1,4 +1,4 @@
-napp:
+app:
   name: Tomcat9 Helloworld
   code: TCLG
   notify: appzdev@cloudbourne.co

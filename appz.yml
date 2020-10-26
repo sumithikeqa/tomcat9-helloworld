@@ -27,7 +27,7 @@ properties:
   MOD_CLUSTER: modcluster-1-3:6666
   title: Tomcat HelloWorld - Demo Oracle
   site_url: "https://hellotomcat.appzprod.com"
-  head_color : Blue
+  head_color : Green
   threads: 5
   delay: 15
   next: 15

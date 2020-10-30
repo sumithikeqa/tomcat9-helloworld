@@ -26,8 +26,8 @@ monitor:
 properties:
   MOD_CLUSTER: modcluster-1-3:6666
   title: Tomcat HelloWorld - AWS CFT Test 10062020
-  site_url: "https://hellotomcat.12bfc575.nip.io"
-  head_color : blue
+  site_url: "https://hellotomcat.appzclient.com/tomcat9-loadgen/clock.jsp"
+  head_color : Red
   threads: 5
   delay: 15
   next: 15

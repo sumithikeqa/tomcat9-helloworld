@@ -27,7 +27,7 @@ properties:
   MOD_CLUSTER: modcluster-1-3:6666
   site_url: "https://hellotomcat.appzclient.com/"
   title: Tomcat HelloWorld - AWS CFT Test 10102020
-  head_color : Green
+  head_color : Red
   threads: 5
   delay: 15
   next: 15

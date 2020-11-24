@@ -28,7 +28,7 @@ properties:
   title: Tomcat HelloWorld - AWS Cloud
   site_url: "https://hellotomcat.appzprod.com"
   head_color : Green
-  threads: 5
+  threads: 2
   delay: 15
   next: 15
   download: true

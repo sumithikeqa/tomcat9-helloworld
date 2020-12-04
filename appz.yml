@@ -33,5 +33,4 @@ properties:
   download: true
   random : true
   nano : 73
-  MY_PASSWORD: 
-    vault: MY_PASSWORD
+

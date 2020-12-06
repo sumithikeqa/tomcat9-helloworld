@@ -24,7 +24,7 @@ monitor:
 
 properties:
   MOD_CLUSTER: modcluster-1-3:6666
-  title: Tomcat HelloWorld - Oracle cloud Testing
+  title: Tomcat HelloWorld - Ingress Testing
   head_color : Green
   threads: 5
   delay: 15

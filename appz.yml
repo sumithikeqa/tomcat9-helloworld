@@ -20,7 +20,7 @@ deploy:
 properties:
   MOD_CLUSTER: modcluster-1-3:6666
   title: Tomcat HelloWorld - AppZ 2.0.3 
-  head_color : Green
+  head_color : Red
   threads: 5
   delay: 15
   next: 15

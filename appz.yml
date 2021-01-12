@@ -9,19 +9,14 @@ build:
   build_file: pom.xml
   output_files: output/*.war
   image_template: tomcat9
-  image_name: alpha/tomcat9-helloworld
 
 deploy:
   context: alpha/DEV
   replicas: 2
   port: 
    - 8080
-   - 80
   strategy : rolling
   ready_seconds : 30
-  
-monitor:
-  notify: appzops@cloudbourne.co
 
 properties:
   MOD_CLUSTER: modcluster-1-3:6666

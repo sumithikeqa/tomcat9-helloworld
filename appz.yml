@@ -1,7 +1,7 @@
 app:
   name: Tomcat Loadgen
   code: TCLG
-  notify: appzdev@cloudbourne.co
+  notify: skumar@ecloudcontrol.com
 
 build:
   version: 0.3
